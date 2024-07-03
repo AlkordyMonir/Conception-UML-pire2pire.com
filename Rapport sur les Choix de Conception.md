@@ -50,4 +50,4 @@ Le projet pire2pire.com vise à créer une plateforme de formation modulaire en 
 
 #### Conclusion
 Les choix de conception pour pire2pire.com sont guidés par l'objectif de créer une plateforme éducative flexible, intuitive et sécurisée. Les décisions prises soutiennent l'engagement des apprenants et l'efficacité des formateurs, tout en assurant la scalabilité et la maintenabilité du système. Cette conception est fondamentale pour répondre aux défis d'une formation en ligne moderne et pour soutenir la croissance continue de la plateforme.
-![image](https://github.com/AlkordyMonir/Conception-UML-pire2pire.com/assets/129857970/bcd8d601-2fcd-4d5a-b4fb-d0d690dc2520)
+
