@@ -20,10 +20,22 @@ Chaque apprenant est caractérisé par un numéro d’inscription unique, un nom
 Un formateur est auteur d'un module pour une formation donnée, chaque formateur est caractérisé par un code, un nom, un prénom.
 ***
 # Diagramme de classes
-![Diagramme de classes](https://github.com/AlkordyMonir/Conception-UML-pire2pire.com/assets/129857970/4378e203-1da6-4f50-927f-f66b701d0b7c)
+![class](https://github.com/user-attachments/assets/d07dd704-be39-40c8-8461-9d4bc61e8225)
+### Relations entre les Classes
+![image](https://github.com/user-attachments/assets/953ac734-1785-41b6-9211-3ba0833d5cf8)
+
+
 ***
 # Diagramme de cas d'utilisation
 ![Diagramme de cas](https://github.com/AlkordyMonir/Conception-UML-pire2pire.com/assets/129857970/fb4a6e4a-3bad-49fb-b25b-5447c8b2d979)
+![useCase](https://github.com/user-attachments/assets/45d03303-7ef8-47df-8d52-2b415afed049)
+
+### note
+La relation <<include>> indique que le comportement du cas d'utilisation inclus ("Visualiser les modules") est toujours invoqué dans le cadre du cas d'utilisation de base ("S'inscrire à une formation"). Autrement dit, chaque fois qu'un utilisateur s'inscrit à une formation, le système effectuera toujours l'action d'afficher les modules.
+### note
+La relation <<extend>> indique que le cas d'utilisation étendu ("S'inscrire à une formation") ajoute un comportement optionnel au cas d'utilisation de base ("Visualiser les formations"). Cela signifie que "S'inscrire à une formation" n'est pas toujours effectué lorsqu'on visualise les formations, mais cela peut être déclenché sous certaines conditions.
+
+
 ***
 # Diagrammes de séquence
 ![Diagrammes de séquence](https://github.com/AlkordyMonir/Conception-UML-pire2pire.com/assets/129857970/20a742cd-da85-4d78-a641-621dacf81f2e)
